@@ -8,6 +8,7 @@ function Colours() {
   }, [])
 
   const [colour, setColour] = useState([]);
+  console.log(colour)
 
   const fetchColours = async () => {
     const response = await fetch('https://www.csscolorsapi.com/api/colors');
